@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../UI/Card';
+import MealItemForm from './MealItemForm';
 
 const DUMMY_MEALS = [
     {
@@ -43,7 +44,7 @@ export default function AvailableMeals() {
                         <p className='mt-1 font-bold text-[#ad5502] text-xl'>${meal.price}</p>
                         </div>
                         <div>
-
+                            <MealItemForm id={meal.id}/>
                         </div>
 
                     </li>
