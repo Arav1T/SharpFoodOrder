@@ -12,8 +12,8 @@ export default function Header() {
              <HeaderCartBtn/>
         </header>
         
-    <div>
-      <img src={meals} alt='A table full of delicious food!' />
+    <div className={classes['main-image']}>
+      <img src={meals} alt='A table full of delicious food!' className='transform -rotate-[5deg] -translate-y-16 -translate-x-4' />
     </div>
     </React.Fragment>
   )
